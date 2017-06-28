@@ -1,0 +1,190 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background: center #d3d0e2 no-repeat;
+    /*opacity:0.1;*/
+}
+
+.mainDiv {
+    width: 1200px;
+    height: 600px;
+    /*background: center #8679c7 no-repeat;*/
+    margin: auto;
+    /*opacity:0.1;*/
+    position: relative;
+}
+
+.headDiv {
+    width: 100%;
+    height: 35px;
+    background: center #997fa7 no-repeat;
+}
+
+    .headDiv > div {
+        /*position:relative;*/
+        width: 200px;
+        /*height:35px;*/
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .headDiv .progressContainer {
+        /*width:20px;*/
+        height: 10px;
+        /*background:center red no-repeat;*/
+        border-radius: 5px 5px;
+        margin-top: 3px;
+    }
+
+    .headDiv .progressContent {
+        height: 100%;
+        width: 100%;
+        background: center red no-repeat;
+        border-radius: 5px 5px;
+        
+    }
+
+    .headDiv .beginButton {
+        width: 80px;
+        height: 20px;
+        background: center #23aff3 no-repeat;
+        margin-left: 20px;
+    }
+
+        .headDiv .beginButton > span {
+            margin-left: 5px;
+        }
+
+.contentDiv {
+    clear: both;
+    position: relative;
+}
+
+.gameList {
+    min-width: 100px;
+    height: 160px;
+    background: #6c6;
+    display: inline-block;
+    position: relative;
+    line-height: 160px;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    -webkit-transform: rotatez(90deg); /* Safari 和 Chrome */
+    cursor:pointer;
+}
+
+    .gameList:before {
+        content: "";
+        　　 width:0px;
+        border-bottom: 80px solid transparent;
+        border-top: 80px solid transparent;
+        border-right: 40px solid #6c6;
+        position: absolute;
+        left: -40px;
+        top: 0px;
+    }
+
+    .gameList:after {
+        content: "";
+        　　 width:0px;
+        border-bottom: 80px solid transparent;
+        border-top: 80px solid transparent;
+        border-left-width: 40px;
+        border-left-style: solid;
+        border-left-color: #6c6;
+        position: absolute;
+        right: -40px;
+        top: 0px;
+    }
+
+.topLeft {
+    position: relative;
+    top: 20px;
+    left: 350px;
+}
+
+.topMiddle {
+    position: relative;
+    top: 20px;
+    left: 415px;
+}
+
+.topright {
+    position: relative;
+    top: 20px;
+    left: 480px;
+}
+
+.middleLeft {
+    position: relative;
+    top:170px;
+    left:113px;
+}
+.middleright {
+    position:relative;
+    top:170px;
+    left:178px;
+}
+.bottomLeft {
+    position:relative;
+    top:320px;
+    right:190px;
+}
+.bottomMiddle {
+    position:relative;
+    top:320px;
+    right:125px;
+}
+.bottomright {
+     position:relative;
+    top:320px;
+    right:60px;
+}
+.gameList > span {
+    display:block;
+     -webkit-transform: rotatez(-90deg); /* Safari 和 Chrome */
+}
+
+.hideFirst {
+    display:none;
+}
+
+.rowDiv {
+    width:650px;
+    height:565px;
+    border:0px solid #fff;
+    float:left;
+    margin-left:40px;
+    position:relative;
+}
+.leftShowDiv {
+    width:400px;
+}
+.rightShowDiv {
+    margin-left:50px;
+}
+
+.inlineDiv {
+    height:35px;
+    line-height:35px;
+    font-size:15px;
+    border:1px solid #fff;
+    margin:18px;
+    border-radius:15px 15px;
+}
+    .inlineDiv > span {
+        margin:10px;
+        boder:1px solid #fff;
+    }
+    .leftShowDiv .inlineDiv > span {
+        margin-left:80px;
+    }
+
+.leftBg {
+    background:center #e29a7f no-repeat;
+}
+.rightBg {
+    background:center #e29a7f no-repeat;
+}
